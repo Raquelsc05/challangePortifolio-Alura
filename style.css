@@ -270,8 +270,6 @@ body {
   flex-direction: column;
   padding: 1rem;
   align-items: center;
-
- 
 }
 
 .contact__details {
@@ -305,12 +303,13 @@ footer p {
 }
 
 #backToTopButton {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: flex-end;
-  margin-right: 1.5rem;
+  right: 0.5rem;
+  position: fixed;
+  bottom: 1.3rem;
 
+  font-size: 1.5rem;
+  line-height: 0;
+  visibility: visible;
 }
 
 @media (min-width: 360px) {
